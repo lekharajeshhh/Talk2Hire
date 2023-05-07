@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "hello!",
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Walk me through an interview?",
+        "mock interview"
+      ],
+      "responses": [
+        "What type of job are you applying for?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "developer",
+        "manager"
+      ],
+      "responses": [
+        "Have you ever worked on a project in a team? If so, how did you collaborate with your team members",
+        "Ok great. How do you stay up to date with the latest advancements in technology and programming languages?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "use a prioritization method to manage my tasks and workload.",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "That's cool, What Programming Languages Are You Proficient In?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "python",
+        "c++",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Good!, keep it up and ace the interview"
+      ]
+    }
+  ]
+}

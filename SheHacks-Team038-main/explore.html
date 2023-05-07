@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+    margin: auto;
+}
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            float: left;
+            padding-left: 300px;
+        }
+
+        li {
+  display: inline;
+  float: left;
+  color: black;
+  font-family: 'poppins';
+  text-decoration: none;
+}
+li a {
+  display: block;
+  padding-top: 0%;
+  padding: 50px;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  color: #111;
+}
+        .companies{
+    position: absolute;
+width: 1060px;
+height: 132px;
+left: 257px;
+top: 100px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 82px;
+text-align: justify;
+
+color: #000000;
+  }
+  .tcs{
+    box-sizing: border-box;
+
+position: absolute;
+width: 846px;
+height: 305px;
+left: 333px;
+top: 231px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+  }
+  .acc{
+    box-sizing: border-box;
+
+position: absolute;
+width: 846px;
+height: 305px;
+left: 333px;
+top: 575px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+  }
+  .c{
+    position: absolute;
+width: 477px;
+height: 62px;
+left: 300px;
+top: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 52px;
+text-align: justify;
+
+color: #000000;
+  }
+  .tcsimg{
+    position: absolute;
+    width: 116px;
+    height: 110px;
+    left: 9px;
+    top: 98px;
+
+  }
+  .c1{
+    position: absolute;
+width: 140px;
+height: 51px;
+left: 625px;
+top: 456px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+
+  }
+  .c2{
+    position: absolute;
+width: 169px;
+height: 52px;
+left: 787px;
+top: 456px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+  }
+  .c3{
+    position: absolute;
+width: 179px;
+height: 52px;
+left: 989px;
+top: 456px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+  }
+  .a1{
+    position: absolute;
+width: 140px;
+height: 51px;
+left: 625px;
+top: 814px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+
+  }
+  .a2{
+    position: absolute;
+width: 169px;
+height: 52px;
+left: 787px;
+top: 814px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+  }
+  .a3{
+    position: absolute;
+width: 179px;
+height: 52px;
+left: 989px;
+top: 814px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+  }
+  .accimg{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 50px;
+top: 122px;
+
+  }
+  .a{
+    position: absolute;
+width: 477px;
+height: 62px;
+left: 633px;
+    top: 645px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 52px;
+text-align: justify;
+
+color: #000000;
+  }
+  .del{
+    box-sizing: border-box;
+
+position: absolute;
+width: 846px;
+height: 305px;
+left: 333px;
+    top: 924px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+  }
+  .delimg{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 59px;
+    top: 110px;
+  }
+  .d1{
+    position: absolute;
+width: 140px;
+height: 51px;
+left: 625px;
+top: 1172px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+
+  }
+  .d2{
+    position: absolute;
+width: 169px;
+height: 52px;
+left: 787px;
+top: 1172px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+  }
+  .d3{
+    position: absolute;
+width: 179px;
+height: 52px;
+left: 989px;
+top: 1172px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+
+color: #000000;
+  }
+  .num1{
+    position: absolute;
+width: 46px;
+height: 30px;
+left: 635px;
+    top: 351px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 34px;
+text-align: justify;
+
+color: #000000;
+
+  }
+  .num2{
+    position: absolute;
+width: 46px;
+height: 30px;
+left: 640px;
+    top: 730px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 34px;
+text-align: justify;
+
+color: #000000;
+  }
+  .num3{
+    position: absolute;
+width: 46px;
+height: 30px;
+left: 647px;
+    top: 1083px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 34px;
+text-align: justify;
+
+color: #000000;
+
+  }
+  .delo{
+    position: absolute;
+width: 477px;
+height: 62px;
+left: 639px;
+    top: 1000px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 52px;
+text-align: justify;
+
+color: #000000;
+
+  }
+  .star{
+    position: absolute;
+    left: 670px;
+    
+    top: 360px;
+    
+  }
+  .star2{
+    position: absolute;
+    left: 670px;
+    top: 740px;
+  }
+  .star3{
+    position: absolute;
+    left: 678px;
+    top: 1090px;
+
+  }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="basic.html">Basic rounds</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="feature.html">Features</a></li>
+      </ul>
+    <div class="companies">
+        Companies you might want to explore
+      </div>
+      <a href="trythebot.html">
+        <div class="tcs">
+            <div class="tcsimg">
+              <img src="image 4.svg">                
+            </div>
+            <div class="c">
+                Tata Consultancy Services
+            </div>
+            
+        </div>
+      </a>
+      <div class="c1">
+                Location
+                39 office locations
+            </div>
+            <div class="c2">
+                Global Company Size
+                10000+ Employees
+            </div>
+            <div class="c3">
+                Software Development
+                Industry
+            </div>
+      
+      
+            <a href="">
+        <div class="acc">
+            <div class="accimg">
+              <img src="image 10.svg">
+                
+                
+                
+            </div>
+        </div>
+        <div class="a">
+            Accenture
+        </div>
+
+      </a>
+      <div class="a1">
+        Location
+        39 office locations
+    </div>
+    <div class="a2">
+        Global Company Size
+        10000+ Employees
+    </div>
+    <div class="a3">
+        Software Development
+        Industry
+    </div>
+
+    <a href="">
+        <div class="del">
+            <div class="delimg">
+              <img src="image 9.svg">
+                
+            </div>
+        </div>
+        <div class="delo">
+            Deloitte
+        </div>
+      </a>
+      <div class="d1">
+        Location
+        39 office locations
+    </div>
+    <div class="d2">
+        Global Company Size
+        10000+ Employees
+    </div>
+    <div class="d3">
+        Software Development
+        Industry
+    </div>
+
+    <div class="num1">3.9</div>
+    <div class="star"><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.72071 0.496882C9.39956 -0.0565768 8.6003 -0.056579 8.27915 0.496882L6.01744 4.39464C5.85879 4.66804 5.58459 4.85462 5.27203 4.90183L1.03344 5.54201C0.321537 5.64954 0.0718206 6.54838 0.626242 7.00771L3.78382 9.62373C4.0761 9.86589 4.21354 10.2479 4.14253 10.6207L3.31656 14.9583C3.18599 15.644 3.90581 16.1768 4.52344 15.8516L8.51461 13.7501C8.81839 13.5901 9.18147 13.5901 9.48524 13.7501L13.4764 15.8516C14.094 16.1768 14.8139 15.644 14.6833 14.9583L13.8573 10.6207C13.7863 10.2479 13.9238 9.86589 14.216 9.62373L17.3736 7.00771C17.928 6.54838 17.6783 5.64954 16.9664 5.54201L12.7278 4.90183C12.4153 4.85462 12.1411 4.66804 11.9824 4.39464L9.72071 0.496882Z" fill="#FFD361"/>
+        </svg>
+        </div>
+    <div class="num2">4.1</div>
+    <div class="star2"><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.72071 0.496882C9.39956 -0.0565768 8.6003 -0.056579 8.27915 0.496882L6.01744 4.39464C5.85879 4.66804 5.58459 4.85462 5.27203 4.90183L1.03344 5.54201C0.321537 5.64954 0.0718206 6.54838 0.626242 7.00771L3.78382 9.62373C4.0761 9.86589 4.21354 10.2479 4.14253 10.6207L3.31656 14.9583C3.18599 15.644 3.90581 16.1768 4.52344 15.8516L8.51461 13.7501C8.81839 13.5901 9.18147 13.5901 9.48524 13.7501L13.4764 15.8516C14.094 16.1768 14.8139 15.644 14.6833 14.9583L13.8573 10.6207C13.7863 10.2479 13.9238 9.86589 14.216 9.62373L17.3736 7.00771C17.928 6.54838 17.6783 5.64954 16.9664 5.54201L12.7278 4.90183C12.4153 4.85462 12.1411 4.66804 11.9824 4.39464L9.72071 0.496882Z" fill="#FFD361"/>
+        </svg>
+        </div>
+    <div class="num3">4.1</div>
+    <div class="star3"><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.72071 0.496882C9.39956 -0.0565768 8.6003 -0.056579 8.27915 0.496882L6.01744 4.39464C5.85879 4.66804 5.58459 4.85462 5.27203 4.90183L1.03344 5.54201C0.321537 5.64954 0.0718206 6.54838 0.626242 7.00771L3.78382 9.62373C4.0761 9.86589 4.21354 10.2479 4.14253 10.6207L3.31656 14.9583C3.18599 15.644 3.90581 16.1768 4.52344 15.8516L8.51461 13.7501C8.81839 13.5901 9.18147 13.5901 9.48524 13.7501L13.4764 15.8516C14.094 16.1768 14.8139 15.644 14.6833 14.9583L13.8573 10.6207C13.7863 10.2479 13.9238 9.86589 14.216 9.62373L17.3736 7.00771C17.928 6.54838 17.6783 5.64954 16.9664 5.54201L12.7278 4.90183C12.4153 4.85462 12.1411 4.66804 11.9824 4.39464L9.72071 0.496882Z" fill="#FFD361"/>
+        </svg>
+        </div>
+</body>
+</html>
